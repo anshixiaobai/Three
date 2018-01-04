@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>模仿ios 三级联动</title>
+  </head>
+  
+
+  <body>
+    <div class="value">
+       一级:<i id="iOneId"></i>, 二级<i id="iTwoId"></i>, 三级<i id="iThreeId"></i>
+    </div>
+    </div>
+    <div class="mask"></div>
+    <div class="content">
+      <div class="rise-button"> <button>取消</button> <button>确定</button> </div>
+      <div class="con-content">
+        <div class="over-hidden">
+          <div class="one li" scroll="setTimeout(domScroll, 0)">
+            <!-- <div>1</div> -->
+          </div>
+        </div>
+        <div class="over-hidden">
+          <div class="two li">
+            <!-- <div>2</div> -->
+            
+          </div>
+        </div>
+        <div class="over-hidden">
+          <div class="three li">
+            <!-- <div>3</div> -->
+          </div>
+        </div>
+      </div>
+      <div class="selected-top"></div>
+      <div class="selected-bottom"></div>
+    </div>
+    <link href="index.css" rel="stylesheet"/>  
+    <script src="index.js"></script>
+  </body>
+</html>
